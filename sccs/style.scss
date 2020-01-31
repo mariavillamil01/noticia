@@ -4,7 +4,7 @@
     margin: 0px 0px 0px 360px;
     float: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    background-color: darkgray;
 }
 .article {
     border: 1px solid blueviolet;
@@ -16,12 +16,12 @@
     border: 1px solid orange;
     padding: 9px;
 }
-h1 p {
+#barra{
     display: none;
-    background-color: lawngreen;
+    background-color: rgb(59, 186, 236);
     padding: 20px;
 }
-h1:hover p {
+.notice:hover #barra {
     display: block;
 }
 h1 + p {
@@ -29,4 +29,7 @@ h1 + p {
 }
 img {
     width: 90%
+}
+body{
+    background-color: rgb(243, 207, 160);
 }

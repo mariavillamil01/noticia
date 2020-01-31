@@ -3,7 +3,8 @@
   width: 60%;
   margin: 0px 0px 0px 360px;
   float: left;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darkgray; }
 
 .article {
   border: 1px solid blueviolet;
@@ -15,12 +16,12 @@
   border: 1px solid orange;
   padding: 9px; }
 
-h1 p {
+#barra {
   display: none;
-  background-color: lawngreen;
+  background-color: #3bbaec;
   padding: 20px; }
 
-h1:hover p {
+.notice:hover #barra {
   display: block; }
 
 h1 + p {
@@ -28,5 +29,8 @@ h1 + p {
 
 img {
   width: 90%; }
+
+body {
+  background-color: #f3cfa0; }
 
 /*# sourceMappingURL=style.css.map */
