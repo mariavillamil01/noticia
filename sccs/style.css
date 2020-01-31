@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid green;
+  width: 60%;
+  margin: 0px 0px 0px 360px;
+  float: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.article {
+  border: 1px solid blueviolet;
+  width: 98%;
+  margin: 7px;
+  float: left; }
+
+.article > div {
+  border: 1px solid orange;
+  padding: 9px; }
+
+h1 p {
+  display: none;
+  background-color: lawngreen;
+  padding: 20px; }
+
+h1:hover p {
+  display: block; }
+
+h1 + p {
+  color: royalblue; }
+
+img {
+  width: 90%; }
+
+/*# sourceMappingURL=style.css.map */
